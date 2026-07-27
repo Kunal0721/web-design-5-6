@@ -1,0 +1,16 @@
+
+.box{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.btn{
+    color: white;
+    background-color: lightcoral;
+    font-size: 40px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+}

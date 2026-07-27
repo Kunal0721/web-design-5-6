@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-rows: 100px 500px 300px 300px;
+    gap: 10px;
+    grid-template-areas: "nav nav nav"
+    "ban ban ban"
+    "side con con"
+    "side i1 i2";
+}
+
+.nav{
+    background-color: lightblue;
+    grid-area: nav;
+}
+
+.banner{
+    background-color: lightcoral;
+    grid-area: ban;
+}
+
+.sidebar{
+    background-color: lightgreen;
+    grid-area: side;
+}
+
+.content{
+    background-color: lightcyan;
+    grid-area: con;
+}
+
+.img-1{
+    background-color: lightpink;
+    grid-area: i1;
+}
+
+.img-2{
+    background-color: burlywood;
+    grid-area: i2 ;
+}

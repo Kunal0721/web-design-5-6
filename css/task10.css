@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(9, 9, 82);
+}
+
+/* navbar starts */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+    background-color: rgba(174, 173, 230, 0.417);
+}
+
+.logo{
+    font-size: 40px;
+    color: white;
+}
+
+span{
+    color: lightcoral;
+}
+
+.items a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+/* navbar ends */
+
+/* banner starts  */
+.banner{
+    background-image: url(image.avif);
+    background-size: cover;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.element{
+    font-size: 100px;
+}
+.sub-element{
+    width: 500px;
+    text-align: center;
+}
+.btn{
+    padding: 10px 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: brown;
+    color: burlywood;
+    border: none;
+}
+/* banner ends  */
+
+/* services starts  */
+.services{
+    padding: 10px 90px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skil-set{
+    color: brown;
+    font-size: 100px;
+}
+
+.brd{
+    border: 5px solid brown;
+    width: 200px;
+    margin-bottom: 40px;
+
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.sub-heading{
+    padding: 10px 0px;
+}
+.para-services{
+    color: rgba(255, 255, 255, 0.667);
+}
+
+.icon{
+    color: brown;
+    font-size: 40px;
+}
+/* services ends  */

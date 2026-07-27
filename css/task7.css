@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    height: 1000vh;
+}
+.container{
+    height: 500px;
+    background-image: url(image.avif);
+    color: white;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    background-size : cover;
+    border: 2px solid black;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-attachment: fixed;
+}

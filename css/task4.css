@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.simple{
+    height: 500px;
+    width:  50vw;
+    background-color: lightcoral;
+    font-size: 3em;
+    text-shadow: 2px 3px 4px black;
+}
+
+img{
+    width: 40vw;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 3px 4px 5px black;
+    margin: 10px;
+}
