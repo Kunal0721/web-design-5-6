@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+}
+
+.box{
+    margin: 10px;
+    padding: 10px ;
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+}

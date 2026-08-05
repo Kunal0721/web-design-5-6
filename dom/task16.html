@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="password" placeholder="Enter password">
+    <p id="result"></p>
+    <script>
+        let password = document.getElementById("password");
+        let result = document.getElementById("result")
+        let p = "";
+        password.addEventListener("input", function(){
+            let lower = /[a-z]/;
+            let upper = /[A-Z]/
+            let numbers = /\d/
+
+            p = password.value;
+            if(p.length >= 8){
+                if(numbers.test(p)){
+                    if(upper.test(p)){
+                        result.innerHTML = "";
+                    }
+                    else{
+                        result.innerHTML = "please enter the uppercase characters**";
+                    }
+                }
+                else{
+                    result.innerHTML = "please include the number**";
+                }
+            }
+            else{
+                result.innerHTML = "please enter the password more then 8 character";
+                result.style.color= "crimson"
+            }
+
+        })
+    	// let sentence = "Today is a beautifull day";
+		// let pattern = /day/;
+	
+        // console.log(sentence.match(pattern))
+        // console.log(pattern.test(sentence))
+
+        // let password = "17z23";
+        // let lower = /[a-z]/;
+        // let capitals = /[A-Z]/;
+        // let numbers = /\d/
+
+
+        // console.log(lower.test(password))
+        // console.log(capitals.test(password))
+        // console.log(numbers.test(password))
+    </script>
+</body>
+</html>
